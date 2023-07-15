@@ -23,6 +23,7 @@ Run script located in "src/main/resources/script.sql"
 
 ## Run Project
 mvn package
+
 java -jar studentcrud-0.0.1-SNAPSHOT.jar
 
 ## Use Postman to Test the REST-API
