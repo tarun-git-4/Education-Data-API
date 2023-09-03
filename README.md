@@ -1,15 +1,17 @@
-# Student-API
+# Education Data API
 ## A Restful API to view, add, update and delete students.
-In this project, we have designed REST APIs for all CRUD operations that can be used for Student Management, using Spring Boot and saving the data in MySQL database.
+Software applications or systems can interact with and retrieve data related to students and their academic information.
 
 ## Screenshots
-[![Screenshot-2023-07-16-015249.png](https://i.postimg.cc/fL0p7Vhv/Screenshot-2023-07-16-015249.png)](https://postimg.cc/YGMdMq04)
+[![Screenshot-2023-09-03-085826.png](https://i.postimg.cc/zfxr8rrQ/Screenshot-2023-09-03-085826.png)](https://postimg.cc/ns95GNMK)
 
-[![Screenshot-2023-07-16-015404.png](https://i.postimg.cc/nr4W5Nrj/Screenshot-2023-07-16-015404.png)](https://postimg.cc/K3YQ3qnx)
+[![Screenshot-2023-09-03-085904.png](https://i.postimg.cc/qRgd75Bv/Screenshot-2023-09-03-085904.png)](https://postimg.cc/LYdWCvZc)
 ## Technologies Used
 * Spring Boot
 
 * Spring Data JPA (Hibernate)
+
+* Spring Data Rest
 
 * Mysql
 
