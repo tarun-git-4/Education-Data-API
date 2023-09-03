@@ -20,14 +20,22 @@ public class Student {
     @Column(name="email")
     private String email;
 
+    @Column(name="Branch")
+    private String branch;
+
+    @Column(name="cgpa")
+    private Float cg;
+
     public Student(){
 
     }
 
-    public Student(String firstName, String lastName, String email) {
+    public Student(String firstName, String lastName, String email,String branch,float cg) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.email = email;
+        this.branch = branch;
+        this.cg = cg;
     }
 
     public int getId() {
@@ -62,13 +70,31 @@ public class Student {
         this.email = email;
     }
 
+    public String getBranch() {
+        return branch;
+    }
+
+    public void setBranch(String branch) {
+        this.branch = branch;
+    }
+
+    public float getCg() {
+        return cg;
+    }
+
+    public void setCg(float cg) {
+        this.cg = cg;
+    }
+
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Student{" +
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", email='" + email + '\'' +
+                ", branch='" + branch + '\'' +
+                ", cg=" + cg +
                 '}';
     }
 
