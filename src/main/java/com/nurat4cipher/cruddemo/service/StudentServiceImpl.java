@@ -13,6 +13,10 @@ public class StudentServiceImpl implements StudentService {
 
     private StudentRepository studentRepository;
 
+            private String var;
+
+
+
     @Autowired
     public StudentServiceImpl(StudentRepository studentRepository){
         this.studentRepository = studentRepository;
