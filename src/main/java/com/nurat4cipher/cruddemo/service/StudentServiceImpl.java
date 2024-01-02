@@ -11,7 +11,9 @@ import java.util.Optional;
 @Service
 public class StudentServiceImpl implements StudentService {
 
-    private StudentRepository studentRepository;
+        private StudentRepository studentRepository;
+
+    private String ex;
 
     @Autowired
     public StudentServiceImpl(StudentRepository studentRepository){
