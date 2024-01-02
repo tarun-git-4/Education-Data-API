@@ -11,14 +11,7 @@ import org.springframework.context.annotation.Bean;
 public class DemoApplication {
 
     public static void main(String[] args) {
-
-            SpringApplication.run(DemoApplication.class, args);
-        // useful changes
-        String var = "Tarun is Here";
-
-
-
-
+        SpringApplication.run(DemoApplication.class, args);
     }
 
 }
